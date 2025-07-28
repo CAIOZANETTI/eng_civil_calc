@@ -1,0 +1,25 @@
+# Custos estimados de materiais e serviços
+
+custos:
+  materiais:
+    concreto:
+      unitario: 350  # R$/m³
+    aco:
+      unitario: 6.5  # R$/kg
+    areia:
+      unitario: 80   # R$/m³
+    argila:
+      unitario: 50   # R$/m³
+    calcario:
+      unitario: 90   # R$/m³
+    soja:
+      unitario: 100  # R$/t
+    lodo:
+      unitario: 40   # R$/m³
+  servicos:
+    forma:
+      unitario: 25   # R$/m²
+    escavacao:
+      unitario: 120  # R$/m³
+    transporte:
+      unitario: 5    # R$/km

@@ -1,0 +1,15 @@
+# Premissas de normativas utilizadas nos cálculos
+
+normas:
+  concreto_armado: "NBR 6118:2014"
+  estruturas_metalicas: "NBR 8800:2008"
+  fundacoes: "NBR 6122:2022"
+  cargas: "NBR 6120:1980"
+  vento: "NBR 6123:2023"
+  estruturas_agro: "EN 1991-4:2006"
+
+coeficientes_parciais:
+  gamma_c: 1.4  # concreto
+  gamma_s: 1.15 # aço
+  gamma_f: 1.4  # fundações
+  psi0: 0.7     # combinação quase permanente

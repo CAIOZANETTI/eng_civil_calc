@@ -1,0 +1,25 @@
+# Premissas iniciais de cálculo
+# Densidades em kN/m³ e resistências em MPa (quando aplicável)
+
+materiais:
+  aco:
+    resistencia: 500  # MPa (fyk)
+    densidade: 78.5    # kN/m³
+  concreto:
+    resistencia: 30   # MPa (fck)
+    densidade: 25     # kN/m³
+  argila:
+    resistencia: 0.05 # MPa (coesão ou resistência não drenada)
+    densidade: 18     # kN/m³
+  areia:
+    resistencia: 0.0  # sem coesão (usar ângulo de atrito)
+    densidade: 18     # kN/m³
+  soja:
+    resistencia: 0.0  # produto agrícola (considerar apenas peso específico)
+    densidade: 8      # kN/m³
+  lodo:
+    resistencia: 0.02 # MPa (estimativa)
+    densidade: 10     # kN/m³
+  calcario:
+    resistencia: 5    # MPa (rocha branda)
+    densidade: 25     # kN/m³
